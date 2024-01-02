@@ -1,6 +1,6 @@
 {
   "short_name": "Little Lemon",
-  "name": "Little Lemon - An authentic Mediterranean restaurant",
+  "name": "Little Lemon - Your local Mediterranean restaurant",
   "icons": [
     {
       "src": "favicon.ico",
@@ -10,6 +10,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#495E57",
+  "theme_color": "#000000",
   "background_color": "#ffffff"
 }
