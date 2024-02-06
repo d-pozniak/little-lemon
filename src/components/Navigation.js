@@ -8,7 +8,9 @@ export default function Navigation({ links }) {
     );
     return (
         <nav>
-            {list}
+            <ul>
+                {list}
+            </ul>
         </nav>
     )
 }
