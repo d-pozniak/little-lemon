@@ -1,5 +1,9 @@
-.page__container{
+.container{
     max-width: 1140px;
     margin: 0 auto;
     padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    gap: 30px;
 }
