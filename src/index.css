@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "helpers/reset.css";
+
+@font-face {
+  font-family: Karla;
+  src: url(./assets/fonts/Karla.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: Markazi;
+  src: url(./assets/fonts/Markazi.ttf);
+}
+
+:root {
+  --primary-green: #495e57;
+  --primary-yellow: #f4ce14;
+  --salmon: #ee9972;
+  --light-salmon:#fbdabb;
+  --off-white:#edefee;
+  --black: #333333;
 }
