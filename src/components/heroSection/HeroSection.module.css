@@ -1,0 +1,50 @@
+.container {
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 24px 0;
+}
+
+.info {
+    max-width: 430px;
+}
+
+.title{
+    color: var(--primary-yellow);
+    font: 64px Markazi, serif;
+}
+
+.subtitle {
+    color: var(--off-white);
+    font: 40px Markazi, serif;
+}
+
+.description {
+    color: var(--off-white);
+    font: 16px Karla, sans-serif;
+    line-height: 1.5;
+    max-width: 28ch;
+}
+
+.reserve__button {
+    cursor: pointer;
+    margin: 12px 0;
+    padding: 15px;
+    border-radius: 12px;
+    border-color: var(--primary-yellow);
+    border-style: none;
+    color: var(--black);
+    background-color: var(--primary-yellow);
+    font: 18px Karla, sans-serif;
+    font-weight: 700;
+}
+
+.image {
+    border-radius: 10px;
+    max-width: calc(50% - 20px);
+    max-height: 480px;
+}
