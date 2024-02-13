@@ -1,43 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700;800&display=swap');
-
 .page__container{
-    max-width: 870px;
+    max-width: 1140px;
     margin: 0 auto;
     padding-top: 25px;
-}
-
-li{
-    list-style: none;
-    font-family: 'Karla', sans-serif;
-    font-size: 20px;
-    font-weight: 800;
-}
-
-a {
-    text-decoration: none;
-    color: #333333;
-    min-width: max-content;
-}
-
-a:hover {
-    text-shadow: .25px 0px .1px,
-    -.25px 0px .1px;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-}
-
-ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 20px;
-}
-
-.logo {
-    width: 200px;
 }

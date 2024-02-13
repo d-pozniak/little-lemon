@@ -1,0 +1,21 @@
+.nav__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav__item {
+    font-family: Karla, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav__link {
+    color: var(--black);
+}
+
+.nav__link:hover {
+    text-shadow: .25px 0px .1px,
+    -.25px 0px .1px;
+}

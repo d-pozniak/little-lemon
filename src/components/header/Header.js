@@ -1,7 +1,7 @@
-import {LINKS} from '../constants/links';
-import Nav from './Navigation';
-import Logo from '../assets/images/logo.jpg';
-import styles from '../App.module.css';
+import {LINKS} from '../../constants/links';
+import Nav from '../navigation/Navigation';
+import Logo from '../../assets/images/logo.jpg';
+import styles from './Header.module.css';
 
 export default function Header(){
     return (
