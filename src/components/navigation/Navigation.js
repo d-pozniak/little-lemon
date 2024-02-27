@@ -1,11 +1,12 @@
-import styles from './Navigation.module.css'
+import styles from './Navigation.module.css';
+import { Link } from "react-router-dom";
 
 export default function Navigation({ links }) {
     const list = links.map( (link, index) =>
         <li key={index} className={styles.nav__item}>
-            <a href={link.href} className={styles.nav__link}>
+            <Link to={link.href} className={styles.nav__link}>
                 {link.name}
-            </a>
+            </Link>
         </li>
     );
     return (
