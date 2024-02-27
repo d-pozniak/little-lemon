@@ -12,8 +12,9 @@
 }
 
 .section {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
     align-items: flex-start;
     padding: 24px 0;
@@ -60,6 +61,7 @@
 
 .image {
     border-radius: 10px;
-    max-width: calc(50% - 20px);
-    max-height: 480px;
+    height: 500px;
+    width: 500px;
+    background: no-repeat center / 100% url("../../assets/images/reserve-table.jpg");
 }

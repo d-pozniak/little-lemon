@@ -1,4 +1,3 @@
-import ReserveTableImg from '../../assets/images/reserve-table.jpg';
 import styles from './HeroSection.module.css';
 import center from '../../helpers/center.module.css';
 
@@ -20,11 +19,7 @@ export default function HeroSection() {
                     </p>
                     <button className={styles.reserve__button}>Reserve a Table</button>
                 </div>
-                <img
-                    src={ReserveTableImg}
-                    className={styles.image}
-                    alt='Four entrees on a plate'
-                />
+                <div className={styles.image} ></div>
             </section>
         </div>
     )
