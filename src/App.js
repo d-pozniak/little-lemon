@@ -1,14 +1,14 @@
 import styles from './App.module.css';
 import Header from './components/header/Header';
-import Main from './components/main/Main';
 import Footer from './components/footer/Footer';
+import Routing from "./components/Routing";
 
 function App() {
   return (
     <div className={styles.container}>
-      <Header></Header>
-      <Main></Main>
-      <Footer></Footer>
+        <Header/>
+        <Routing/>
+        <Footer/>
     </div>
   );
 }
