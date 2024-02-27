@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 
-import Main from './Main';
+import Homepage from './Homepage';
 
 test('renders footer', () => {
-    render(<Main />);
+    render(<Homepage />);
 });
