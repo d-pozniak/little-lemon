@@ -1,0 +1,36 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.title__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.title__container h2 {
+    font-family: Markazi, serif;
+    font-size: 40px;
+}
+
+.menu__button{
+    cursor: pointer;
+    margin: 12px 0;
+    padding: 15px;
+    border-radius: 12px;
+    border-color: var(--primary-yellow);
+    border-style: none;
+    color: var(--black);
+    background-color: var(--primary-yellow);
+    font: 18px Karla, sans-serif;
+    font-weight: 700;
+}
+
+.menu__button:hover {
+    text-shadow: .25px 0px .1px,
+    -.25px 0px .1px;
+}

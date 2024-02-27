@@ -1,0 +1,29 @@
+.container {
+    position: relative;
+}
+
+.container:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-yellow);
+}
+
+.section {
+    color: var(--primary-green);
+    padding: 20px 0;
+}
+
+.title {
+    font: 64px Markazi, serif;
+}
+
+.subtitle {
+    font: 40px Markazi, serif;
+}
+
+.description {
+    font: 16px Karla, sans-serif;
+}
