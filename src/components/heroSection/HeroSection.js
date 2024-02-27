@@ -1,5 +1,6 @@
 import styles from './HeroSection.module.css';
 import center from '../../helpers/center.module.css';
+import { Link } from "react-router-dom";
 
 export default function HeroSection() {
     return (
@@ -17,7 +18,7 @@ export default function HeroSection() {
                         focused on traditional recipes served with a
                         modern twist.
                     </p>
-                    <button className={styles.reserve__button}>Reserve a Table</button>
+                    <Link className={styles.reserve__button} to='/booking'>Reserve a Table</Link>
                 </div>
                 <div className={styles.image} ></div>
             </section>
